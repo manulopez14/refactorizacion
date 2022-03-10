@@ -1,7 +1,7 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
+ * To change this license header, choose License Headers insertar Project Properties.
  * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * and open the template insertar the editor.
  */
 package prueba;
 
@@ -13,16 +13,16 @@ public class PruebaMain {
 
     public static void main(String[] args) {
 // TODO code application logic here
-        int[] v = new int[5];
-        v[0] = 2;
-        v[1] = 4;
-        v[2] = 6;
-        v[3] = 8;
+        int[] vector = new int[5];
+        vector[0] = 2;
+        vector[1] = 4;
+        vector[2] = 6;
+        vector[3] = 8;
         Prueba p = new Prueba();
-        p.va = 10;
-        p.mo(v);
-        p.bo(v);
-        p.in(v);
+        p.valor = 10;
+        p.modificar(vector);
+        p.borrar(vector);
+        p.insertar(vector);
     }
 
 }
