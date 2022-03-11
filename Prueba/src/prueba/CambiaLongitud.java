@@ -1,6 +1,6 @@
 package prueba;
 
-public class CambiaLongitud {
+public class CambiaLongitud extends Vector {
 
     /**
      * @return the valor
@@ -16,8 +16,6 @@ public class CambiaLongitud {
         this.valor = valor;
     }
 
-    private int valor;
-//metodo que modifica el contenido de la posicion posicion de un array con el valor pasado
 
     public void modificar(int[] vector, int LongitudActual, int posicion) {
         int i;
@@ -60,6 +58,7 @@ vector[posicion] = this.getValor();
         Visualizar(longitud, vector);
     }
 //metodo que inserta un elemento en la posicion posicion desplazando a la derecha todos los elementos
+//metodo que inserta un elemento en la posicion posicion desplazando a la derecha todos los elementos
 
     public void insertar(int[] vector, int LongitudActual, int posicion) {
         int i;
@@ -82,14 +81,6 @@ vector[posicion] = this.getValor();
         Visualizar(longitud, vector);
     }
 
-    public void Visualizar(final int longitud, int[] vector) {
-        //Mostramos los elementos del array
-        System.out.print("v={");
-        for (int i = 0; i < longitud; i++) {
-            System.out.print(vector[i] + ",");
-        }
-        System.out.println("}");
-    }
 
 
 
