@@ -20,9 +20,9 @@ public class PruebaMain {
         vector[3] = 8;
         Prueba p = new Prueba();
         p.valor = 10;
-        p.modificar(vector);
-        p.borrar(vector);
-        p.insertar(vector);
+        p.modificar(vector, 0);
+        p.borrar(vector, 0);
+        p.insertar(vector, 0);
     }
 
 }
